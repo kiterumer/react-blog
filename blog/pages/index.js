@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Nav from '../components/nav'
+import {Button} from 'antd'
 
 const Home = () => (
   <div>
@@ -8,6 +8,7 @@ const Home = () => (
       <title>Home</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
+    <div><Button>按钮</Button></div>
   </div>
 )
 
